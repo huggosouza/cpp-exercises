@@ -1,17 +1,17 @@
 #include <iostream>
-#include <chrono>
-#include <thread>
+#include <unistd.h>
 
 using namespace std;
 
 int main() {
+    unsigned int microseconds = 1000000;
     int num = 0;
 
     while(num < 100){
         cout << "Okay " << num << endl;
         num++;
 
-        this_thread::sleep_for(chrono::milliseconds(1000));
+        usleep(microseconds);
     };
 
     return 0;
