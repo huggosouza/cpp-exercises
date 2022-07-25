@@ -3,12 +3,11 @@
 using namespace std;
 
 int main() {
-    int nums[5];
-    nums[0] = 10;
+    double valores[] = {1.2, 2.5, 67.0, 25.4};
 
-    double valores[100];
-
-    valores[50] = 5.55;
+    for (int i = 0; i < 4; ++i) {
+        cout << valores[i] << endl;
+    }
 
     return 0;
 }
