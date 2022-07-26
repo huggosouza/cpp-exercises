@@ -25,7 +25,7 @@ int main() {
         << "Left: " << j2.left << endl
         << "Top: " << j2.top << endl;
 
-    
+
 
     return 0;
 }
