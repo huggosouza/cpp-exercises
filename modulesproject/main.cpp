@@ -8,7 +8,7 @@ int main(){
 	
 	int n = 5;
 	
-	cout << "Fatorial de n: "<< fatorial(5);
+	cout << "Fatorial de n: " << area_quadrado(5);
 	
 	return 0;
 }
