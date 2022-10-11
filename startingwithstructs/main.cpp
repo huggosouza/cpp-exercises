@@ -32,7 +32,7 @@ int main() {
             cout << "Person H: " << endl << "Name: " << h.name << " " << h.lastname << endl << "Age: " << h.age;
         }
         else{
-            cout << "YOU NEED TO CHOOSE P OR H!!!";
+            cout << "YOU NEED TO CHOOSE P OR H!!!\n";
         }
     }
 
